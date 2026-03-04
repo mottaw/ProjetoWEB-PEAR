@@ -1,0 +1,80 @@
+body {
+  background-color: #1E2836;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.header {
+    background-color: rgb(207, 207, 207);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.logo img {
+  height: 90px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(83, 82, 82);
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00bfff;
+}
+
+
+
+/* calma ai agora, vou de body */
+
+.oldpc {
+    position: relative;
+    display: block;
+    height: 90vh;
+    background-image: url("images/imageComputer.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.oldpc-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    padding: 40px 20px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
